@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Normalize lo usamos en todos los proyectos solo que estemos utilizandp un framework como Bootstrap-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Scope+One&display=swap" rel="stylesheet">
+    <!--Fuentes de Google-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blog de Café</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <!--Este header es un Bloque-->
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto"><span class="logo__arial">Blog</span><span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+                    <a class="navegacion__enlace" href="cursos.html">Cursos</a>
+                    <a class="navegacion__enlace" href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+            <!--.barra-->
+        </div>
+        <!--.contenedor-->
+
+        <div class="header__texto">
+            <!--Este div es un elemento del bloque header-->
+            <h2 class="no-margin">Blog de Café con consejos y cursos</h2>
+            <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Sobre Nosotros</h3>
+
+        <div class="nosotros">
+            <div class="nosotros__imagen">
+                <img src="img/nosotros.jpg" alt="Imagen nosotros">
+            </div>
+
+            <div class="nosotros__texto">
+                <p class="no-margin justificar-texto">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vestibulum mi nisi, placerat finibus turpis aliquam eu. Mauris in ultricies metus. Integer convallis mi ac risus consequat, non sagittis mauris tincidunt. Pellentesque vel est id est venenatis
+                    ultricies nec nec nibh. Sed sed lobortis magna, vitae lobortis libero. Donec at euismod nulla. Pellentesque turpis mauris, auctor condimentum feugiat posuere, elementum ac ex.</p>
+
+                <p class="no-margin justificar-texto">
+                    Mauris rhoncus lacus neque. Vestibulum ex purus, efficitur vel cursus vitae, aliquam eu nulla. Aenean sit amet purus eget dolor scelerisque finibus. Praesent quis lacinia sapien, ac ornare urna. Ut ac bibendum felis, vitae blandit arcu. Pellentesque in
+                    libero massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis, est ac dignissim faucibus, nisi erat pretium massa, in placerat tortor ex nec arcu. Phasellus nunc mi, elementum eu bibendum commodo, egestas
+                    non lectus.</p>
+            </div>
+        </div>
+        <!--.nosotros-->
+
+    </main>
+    <!--.contenedor-->
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto"><span class="logo__arial">Blog</span><span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+                    <a class="navegacion__enlace" href="cursos.html">Cursos</a>
+                    <a class="navegacion__enlace" href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+            <!--.barra-->
+        </div>
+        <!--.contenedor-->
+    </footer>
+
+    <!--Los archivos Javascript se recomienda cargarlos al final del html antes del cierre del body-->
+    <script src="js/modernizr.js"></script>
+    <!--Modernizr es una librería que va a detectar las características de un navegador y si las soporta va a ejecutar un código y si no los soporta ejecutara otro.-->
+
+</body>
+
+</html>
